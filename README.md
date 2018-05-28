@@ -166,15 +166,32 @@ https://medium.com/quick-code/lets-learn-react-chapter-8-react-forms-f3137a5c07c
 - [ ] pass the test section
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
+
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ] right now form looks very simple. 
+And usually Meal form have more fields. So let's add them.
+
+By using this database schema: https://github.com/ChickenKyiv/recipe-api-only/blob/master/Recipe-ChickenKyiv-Release%231%20Schema%20%20%20SqlDBM.png
+We'll advance this form. I'm pretty sure that when you'll add all fields in this form, you'll realize that it's better to create a sub-components for each form field.
+So, Meal is a similar Model to Recipe.
+so we'll add all important things to that form.
+* Each recipe has attributes: diets, allergies, etc. - text field for each one
+* Each recipe has a weekday field(like today i have chicken, tomorrow i'll eat soup) - i assume it'll be checkbox.
+* Nutritions is a sub-array with a few fields() - text fields
+* Ingredients is a sub-array with a few ingredients inside(like chichen brests, salt, pepper, etc.) Let's have 4 ingredients per meal. 
+
+And, make it works :) this is when a real ES6 is coming into the scene.
+and don't forget that each field will also have an id field(later it can be useful, when you'll grab data from database)
+
 
 #1  
 ---
 
 Master React, Quick Code tutorial. Part 9
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
+https://medium.com/quick-code/how-to-learn-react-9-the-one-thing-you-need-to-know-about-props-and-state-a3f20b16da00
+
+
 ## Expected result
 
 - [ ] Read this tutorial chapter
@@ -185,15 +202,20 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ]  Google and learn about constructor and super() function. Tell me what you've learned about it. 
+- [ ] With our extended form, I think this test wouldn't be a hard thing for you. So, create an array(at the separated file) with data, for a few meals. at least 3-4.
+Then we'll create some sort of meals editing. 
+display meals at the list. and each meal should have an edit button(pass meal id there).
+when a user clicks on edit button - you should display a form(it should be hidden before).
+And by using knowledge of this chapter - fill form fields with values your meals array. 
+So you'll have one form, and each time, by picking an id - you'll grab one element from meals array - and display that data.
 
 #1  
 ---
 
 Master React, Quick Code tutorial. Part 10
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
-## Expected result
+https://medium.com/quick-code/https-medium-com-bernardbad-how-to-learn-react-10-discover-whole-power-of-component-props-ca038296368c## Expected result
 
 - [ ] Read this tutorial chapter
 - [ ] follow code steps
@@ -203,14 +225,13 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
-
+- [ ] xxx
 #1  
 ---
 
 Master React, Quick Code tutorial. Part 11
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
+https://medium.com/quick-code/how-to-learn-react-11-the-simple-formula-to-understand-react-form-ca5e0869910b
 ## Expected result
 
 - [ ] Read this tutorial chapter
@@ -221,7 +242,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ] xxx
 
 #1  
 ---
@@ -229,7 +250,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 
 Master React, Quick Code tutorial. Part 12
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
+https://medium.com/quick-code/how-to-learn-react-12-why-arrays-are-bad-and-what-is-the-alternative-7edf82bd3ecd
 ## Expected result
 
 - [ ] Read this tutorial chapter
@@ -240,7 +261,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ] xxx 
 
 #1  
 ---
@@ -248,7 +269,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 
 Master React, Quick Code tutorial. Part 13
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
+https://medium.com/quick-code/how-to-learn-react-13-the-2-important-things-to-consider-before-styling-your-component-fd852415a2f9
 ## Expected result
 
 - [ ] Read this tutorial chapter
@@ -259,7 +280,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ] xxx
 
 #1  
 ---
@@ -267,7 +288,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 
 Master React, Quick Code tutorial. Part 14
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
+https://medium.com/quick-code/how-to-learn-react-14-the-last-chapter-and-where-to-go-next-12b1649b32a5
 ## Expected result
 
 - [ ] Read this tutorial chapter
@@ -278,7 +299,7 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 - [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
 
 ## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
+- [ ] xxx
 
 #1  
 ---
@@ -286,37 +307,3 @@ https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-stat
 
 Master React, Quick Code tutorial. Part 15
 
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
-## Expected result
-
-- [ ] Read this tutorial chapter
-- [ ] follow code steps
-- [ ] move your code to this repository(at least one commit per day)
-- [ ] explain to me, what did you learn from it in a few sentences(not less than 5)
-- [ ] pass the test section
-- [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
-
-## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
-
-#1  
----
----
-
-Master React, Quick Code tutorial. Part 16
-
-https://medium.com/quick-code/lets-learn-react-chapter-6-updating-component-state-80fcc7c01d24
-## Expected result
-
-- [ ] Read this tutorial chapter
-- [ ] follow code steps
-- [ ] move your code to this repository(at least one commit per day)
-- [ ] explain to me, what did you learn from it in a few sentences(not less than 5)
-- [ ] pass the test section
-- [ ] after reviewing your progress and closing this issue - you can move to the next chapter.
-
-## Test
-- [ ] extend meal component. we need to have image for each meal, also add this elements, like description(textarea), like steps(textarea). upload image is not necessary, we can use a free images from web, so we need to have input where we'll put open urls like: https://flic.kr/p/25zkvjU, https://flic.kr/p/25q8ngt, https://flic.kr/p/26MfbWD, https://flic.kr/p/8b21KZ 
-
-#1  
----
