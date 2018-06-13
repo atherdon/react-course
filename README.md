@@ -116,7 +116,7 @@ as this chapter is more about understanding details - there no a coding test sec
 what do you think, after reading this chapter - is state will replicate
 partially a work of jquery things? i mean will state reduce amount of
 jquery work?
- 
+ #1
 ---
 
 Master React, Quick Code tutorial. Part 6
