@@ -1,4 +1,5 @@
 https://github.com/adam-golab/react-developer-roadmap
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 # react-course
 
